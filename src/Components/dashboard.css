@@ -1,0 +1,46 @@
+
+.table-headder-container {
+    border: 0.1px solid rgba(0, 0, 0, 0.048);
+    
+}
+.table-headder{
+    border: 0.1px solid rgba(0, 0, 0, 0.048);
+}
+.table-headder-container > .table-headder {
+    font-size: 18;
+    font-weight: bold;
+    width:650px;
+}
+.searchTextBox{
+    height:20px;
+    width:380px;
+    font-size: 16px;
+    padding:5px;
+    
+    border-color:  rgb(39, 151, 216);
+    margin:  15px 0px 15px 15px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.delBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBtn{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+.loder{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 85%;
+}
